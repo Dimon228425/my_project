@@ -1,0 +1,56 @@
+body{
+background-color:   #20B2AA;
+}
+#score{
+    text-align: center;
+}
+#game{ 
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: url('https://t4.ftcdn.net/jpg/01/46/03/31/360_F_146033193_K3poVK6PmEHrepqbZD2gwfmm6ma0XAdh.webp');
+    background-size: cover;
+}
+
+#dino{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 225px; 
+    background-image: url('https://cdn140.picsart.com/319033380165211.png?type=webp&to=crop&c=640');
+    background-size: cover;
+    /* animation: jump 0.5s; */
+}
+
+#rock{
+    width: 80px;
+    height: 50px;
+    position: relative;
+    top: 175px; 
+    left: 500px;
+    background-image: url('image_no_bg\ \(1\).png');
+    background-size: cover;
+    animation: rock 1.33s infinite;
+}
+
+@keyframes rock {
+    0%{left: 550px;}
+    100%{left: -50px;}
+  }
+  
+  .jump-animation {
+    animation: jump 0.5s;
+  }
+  
+  @keyframes jump {
+    0%{top: 225px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 225px;}
+  }
+
+
+
+
+  
